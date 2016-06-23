@@ -119,7 +119,7 @@ for (var i = process.argv.length - 1; i >= 2; --i) {
 		process.argv.splice(i, 1);
 	}
 	else if (arg === "--help" || arg === "-h") {
-		console.log('Usage: live-server [-v|--version] [-h|--help] [-q|--quiet] [--port=PORT] [--host=HOST] [--open=PATH] [--no-browser] [--browser=BROWSER] [--ignore=PATH] [--ignorePattern=RGXP] [--entry-file=PATH] [--spa] [--mount=ROUTE:PATH] [--wait=MILLISECONDS] [--htpasswd=PATH] [--cors] [--https=PATH] [--proxy=PATH] [PATH]');
+		console.log('Usage: live-server \n[-v|--version] \n[-h|--help] \n[-q|--quiet] \n[--port=PORT] \n[--host=HOST] \n[--open=PATH] \n[--no-browser] \n[--browser=BROWSER] \n[--ignore=PATH] \n[--ignorePattern=RGXP] \n[--entry-file=PATH] \n[--spa] \n[--mount=ROUTE:PATH] \n[--wait=MILLISECONDS] \n[--htpasswd=PATH] \n[--cors] \n[--https=PATH] \n[--proxy=PATH] \n[PATH]');
 		process.exit();
 	}
 	else if (arg === "--test") {
