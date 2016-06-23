@@ -224,7 +224,7 @@ LiveServer.start = function(options) {
 
 		var address = server.address();
 		var serveHost = address.address === "0.0.0.0" ? "127.0.0.1" : address.address;
-		var openHost = host === "0.0.0.0" ? "127.0.0.1" : host;
+		var openHost = host === "0.0.0.0" ? "localhost" : host;
 
 		var serveURL = protocol + '://' + serveHost + ':' + address.port;
 		var openURL = protocol + '://' + openHost + ':' + address.port;
